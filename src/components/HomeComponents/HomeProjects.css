@@ -166,6 +166,11 @@
 }
 
 @media (max-width: 768px) {
+
+    .project_container {
+        margin-top: 14.8rem;
+    }
+
     .border_container {
         width: 85%;
     }

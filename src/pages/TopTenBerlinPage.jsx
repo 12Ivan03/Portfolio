@@ -1,10 +1,17 @@
-
+import TTBHeader from "../components/TopTenBerlinComponents/TTBHeaderComp";
+import TTBBody from "../components/TopTenBerlinComponents/TTBBodyComp";
 
 function TopTenBerlin() {
 
     return(
         <>
-            <h1>Top Ten Berlin</h1>
+            <section className="padding_page">
+                
+                <TTBHeader />
+
+                <TTBBody />
+
+            </section>
         </>
     )
 }

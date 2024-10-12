@@ -1,0 +1,19 @@
+.back_to_top_btn {
+    position: fixed;
+    top: 80%;
+    left: 88%;
+    z-index: 110%;
+}
+
+.top_btn_rotate {
+    transform: rotate(-45deg);
+}
+
+.back_to_top_btn:hover {
+    cursor: pointer;
+}
+
+.back_to_top_btn:hover .top_arrow,
+.back_to_top_btn:hover .bottom_arrow {
+    background-color: #041F28;
+}

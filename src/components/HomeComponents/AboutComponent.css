@@ -131,6 +131,10 @@
 }
 
 @media (max-width: 768px) {
+    .about_position_container {
+        margin-top: 4.8rem;
+        margin-bottom: 0rem;
+    }
     .about_text img {
         display: none;
     }

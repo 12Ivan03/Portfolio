@@ -7,12 +7,14 @@ import TopTenBerlin from './pages/TopTenBerlinPage';
 import SevenCircles from './pages/SevenCirclesPage';
 import QualyTime from './pages/QualyTimePage';
 import FooterComponent from './components/FooterComponent';
+import BackToTop from './components/BackToTopBtn';
 
 function App() {
 
   return (
     <>
       <NavBar />
+      <BackToTop />
 
       <Routes>
         <Route exact path='/' element={ <HomePage /> } />

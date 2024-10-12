@@ -50,6 +50,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    .center_container_contact {
+        margin-top: 10rem;
+    }
+}
+
 @media (max-width: 390px) {
 
     .center_container_contact {

@@ -1,0 +1,156 @@
+.mesur_TTB {
+    width: 308px;
+}
+
+.flex_sec_clm_TTB {
+    justify-content: flex-start!important;
+}
+
+/*  1 Define problems and opportunities  */
+
+.section_text_width_TTB {
+    width: 83%;
+}
+
+.sec_two_capture_TTB {
+    background:  #1C3E49!important;
+}
+
+.sec_two_capture_TTB > h6 {
+    color: white;
+}
+
+.text_gap_TTB {
+    margin-top: 6rem;
+}
+
+.small_text_gap_TTB {
+    margin-top: 2.5rem
+}
+
+.pic_arch_TTB {
+    display: flex;
+    width: 30%;
+    /* width: 271px; */
+    height: auto;
+    /* height: 561px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FF7262!important;
+    border-radius: 0.7rem;
+}
+
+.pic_arch_TTB > h6{   
+    align-self: flex-end;
+    margin-right: 0.7rem;
+    color: white;
+}
+
+.testing_text_TTB{
+    display: flex;
+    align-items: flex-start;
+    gap: 4.1%;
+}
+
+.findings_text_TTB {
+    width: 66%;
+}
+
+.testing_arch_img_TTB {
+    width: 94%;
+    height: auto;
+    margin-top: 0.8rem;
+}
+
+/*  2 General res */
+
+.testing_text_TTB_two {
+    display: flex;
+    align-items: center;
+    gap: 4.1%;
+}
+
+.ol_dimentions_TTB {
+    width: 96%;
+    margin-left: 1.5rem;
+}
+
+.kersting_img_container {
+    width: 31%;
+}
+
+.kerstin_arch_img_TTB {
+    width: 100%;
+    height: auto;
+}
+
+/* 3 */
+
+.section_text_width_TTB_two {
+    width: 80%;
+}
+
+.findings_text_TTB_two {
+    width: 127%;
+}
+
+.sec_two_capture_width_TTB {
+    width: 72% !important;
+}
+
+.findings_text_TTB_two_two {
+    width:50%
+}
+
+.ol_dimentions_TTB_two {
+    width: 91%;
+    margin-left: 1.5rem;
+}
+
+/* 4 Testing */
+
+.findings_text_TTB_two_three {
+    width: 102%;
+}
+
+.testing_img_TTB {
+    width: 90%;
+}
+
+.margin_TTB-img {
+    margin: 3% 0;
+}
+
+/* 5 User Interface */
+
+.user_testing_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.user_title_testing {
+    margin-bottom: 27%;
+}
+
+.user_text_container {
+    width: 65%;
+}
+
+.user_img_container_TTB {
+    width: 31%;
+    height: auto;
+}
+
+.user_img_container_TTB > img {
+    width: 100%;
+    height: auto;
+}
+
+.ul_TTB_user_text {
+    width: 96%;
+    margin-left: 1.5rem;
+}

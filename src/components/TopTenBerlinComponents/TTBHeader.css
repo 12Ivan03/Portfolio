@@ -1,0 +1,18 @@
+
+.open_des_TTB {
+    width: 100%!important;
+}
+
+.project_icons_TTB {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 33% 13%;
+    justify-content: center;
+    margin-top: -7rem;
+    /* height: 100%; */
+}
+
+.list_small_cont_TTB {
+    margin-top: 1rem;
+}
