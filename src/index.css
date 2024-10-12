@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+button {
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    transition: 1.5s ease-in-out;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    transition: 1.5s ease-in-out;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    transition: 1.5s ease-in-out;
+}
+
+/* subtitle */
+h4 {
+    font-family: Kanit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 1.5s ease-in-out;
+}
+
+p {
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    transition: 1.5s ease-in-out;
+}
+
+.p_bold {
+    font-weight: 500 !important;
+    transition: 1.5s ease-in-out;
+}
+
+.p_bold_two {
+    font-weight: 500!important;
+    transition: 1.5s ease-in-out;
+}
+
+/* caption */
+h6 {
+    font-family: Kanit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 1.5s ease-in-out;
+}
+
+/* buttons */
+
+.primary_button {
+    background-color: #DD4E4E;
+    color: #FFF7F1;
+    border: none;
+    border-radius: 3rem;
+    width: 100%;
+    height: 100%;
+    width: 273px; 
+    height: 56px;
+    transition: all 0.5s ease-in-out;
+}
+
+.primary_button:hover {
+    background: #F17456;
+    cursor: pointer;
+}
+
+.secondary_btn {
+    height: 3.5rem;
+    /* width: 100%;
+    height: 100%; */
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+    border: 1px solid rgba(113, 88, 74, 0.16);
+    background: rgba(255, 247, 241, 0.64);
+    border-radius: 3.2rem;
+    transition: all 0.5s ease-in-out;
+    color: #7B685E;
+}
+
+.secondary_btn:hover {
+    border: 1px solid rgba(113, 88, 74, 0.32);
+    background: rgba(255, 247, 241, 0.64);
+    color: #041F28;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sec_project_btn_adjust {
+    /* width: 100%;
+    height: 100%; */
+    width: 273px!important; 
+    height: 56px!important;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+    
+    /* subtitle */
+    h4 {
+        font-size: 16px;
+    }
+    
+    p {
+        font-family: Kanit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .p_bold {
+        font-weight: 500 !important;
+    }
+    
+    .p_bold_two {
+        font-weight: 500!important;
+    }
+    
+    /* caption */
+    h6 {
+        font-family: Kanit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .secondary_btn {
+        width: 232px;
+        height: 48px;
+    }
+}

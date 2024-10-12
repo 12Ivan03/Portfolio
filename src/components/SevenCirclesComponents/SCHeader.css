@@ -1,0 +1,52 @@
+
+.opening_description_CSH {
+    width: inherit!important;
+}
+
+.project_tools_SCHeader{
+    height: 71%!important;
+    /* height: 327px; */
+}
+
+.icon_container_SCHeader {
+    width: 252px;
+    height: 178px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.icons_SCHeader {
+    width: 252px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.icons_SCHeader > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons_SCHeader > div > img{
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    gap: 4px;
+}
+
+.google_icon {
+    width: 35.04px!important;
+}
+
+.second_row {
+    margin-left: -2.5rem;
+}

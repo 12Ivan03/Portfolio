@@ -1,0 +1,260 @@
+.project_context {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    align-self: stretch;
+}
+.project_text_width {
+    width: 83%;
+    /* width: 728px; */
+}
+
+.btm_end {
+    margin-bottom: 11.875rem;
+}
+
+.project_text_height {
+    height: 331px;
+}
+
+.text_gap{
+    margin-bottom: 1rem;
+}
+
+.list_project {
+    margin-left: 1.5rem;
+}
+
+.list_project > li {
+    margin-bottom: 1rem;
+}
+
+.btn_procces_nav {
+    margin-top: 2.5rem;
+    padding: 1rem 2rem;
+    /* width: 93%; */
+    /* height: 20%; */
+    /* width: 816px; */
+    /* height: 149px; */
+    display: flex;
+    justify-content: space-between;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, auto); */
+    /* gap: 5rem; */
+    /* align-items: center; */
+    background-color: #FBD1BB;
+    border-radius: 1.23rem;
+    /* justify-content: space-between;
+    align-content: space-between; */
+}
+
+.flex_procces_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+.mesur {
+    display: flex;
+    width: 272px;
+    height: 50px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #7B685E;
+    font-family: Kanit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mesur > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section_gap {
+    margin-bottom: 7.75rem;
+}
+
+.in_section_gap {
+    margin-bottom: 5rem;
+}
+
+.eight_gap {
+    margin-bottom: 0.5rem;
+}
+
+.fourth_two_half_gap {
+    margin-bottom: 2.5rem;;
+}
+
+.sec_two_two {
+    width: 100%;
+    height: auto;
+    /* width: 880px; */
+    /* height: 305px; */
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 5rem 0 2rem 0;
+}
+
+.sec_two_capture {
+    display: flex;
+    width: 141%;
+    padding: 1%;
+    /* width: 416px; */
+    /* padding: 8px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    background-color: rgba(113, 88, 74, 0.16);
+    border-radius: 1.5rem;
+}
+
+.sec_two_image {
+    width: 100.5%;
+    /* height: %; */
+    /* height: 15.75rem; */
+}
+
+.section_text_width {
+    width: 80%;
+    /* width: 728px; */
+}
+
+.ol_dimentions {
+    width: 101%;
+    /* width: 708px; */
+    margin-left: 1.5rem;
+}
+
+.ol_dimentions > li {
+    margin-top: 1rem;
+}
+
+.circle_ul_li > li {
+    list-style: disc;
+    margin-left: 1.7rem;
+    margin-top: 1rem;
+}
+
+.nav_UX_Process {
+    width: 100%;
+    /* margin-top: 4rem; */
+}
+
+/* 2. Ideation */
+
+.ideaton_architecture {
+    margin-bottom: 6.6rem;
+}
+
+.pic_ideation_arch {
+    display: flex;
+    width: 96.5%;
+    padding: 1.8%;
+    /* padding: 16px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: #E6DFDB;
+}
+
+.image_ideation_arch {
+    height: auto;
+    /* height: 580px; */
+    align-self: stretch;
+    border-radius: 20px;
+}
+
+.ideation_arch_img_second {
+    width: 45%!important;
+}
+
+/* Box - with the first images of the projects */
+
+.box_dev_expo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.125rem;
+    width: 100%;
+}
+
+.dox_text_expo {
+    width: 55%;
+}
+
+.img_box_dev_expo {
+    width: 100%;
+    height: 100%;
+    /* width: 388px;
+    height: 257px; */
+}
+
+/* Testing & Iterating */
+
+.testing_text {
+    display: flex;
+    align-items: center;
+    gap: 21%;
+    /* gap: 184px; */
+}
+
+.testing_text_two {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.text_exponation_testing {
+    width: 106%;
+}
+
+.testing_arch {
+    display: flex;
+    padding: 16px 16px 4px 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 8px;
+    width: 237px;
+    height: 556px;
+}
+
+.testing_arch_img {
+    width: 237px;
+    height: 526px;
+}
+
+.testing_arch_img_two {
+    width: 100%;
+    height: auto;
+    /* width: 393px;
+    height: 426px; */
+}
+
+/* Interactive secion */
+
+.interactive_img {
+    width: 100%;
+    height: auto;
+    /* width: 848px;
+    height: 583px; */
+}
+
+.project_footer_buttons {
+    display:flex;
+    justify-content: space-between;
+}

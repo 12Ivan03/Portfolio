@@ -1,0 +1,134 @@
+
+.project_position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFAF6;
+}
+
+.project_container_position {
+    width: 61%;
+    /* width: 55rem; */
+}
+
+.header_open_text {
+    width: 100%;
+    margin-top: 17rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 4.5rem;
+}
+
+.opening_text_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.opening_text > h1 {
+    margin-bottom: 0.5rem;
+}
+
+.opening_btn {
+    display: flex;
+    width: 31%;
+    /* width: 272px; */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.opening_description {
+    width: 82%;
+   /* width: 723px; */
+   height: auto;
+   /* height: 198px;  */
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+}
+
+/* header image */
+
+.header_image_project > img {
+    width: 100%;
+    height: auto;
+    /* height: 616px; */
+    border-radius: 20px; 
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+/* project short description light-brown background */
+
+.project_tools {
+    display: flex;
+    padding: 3%;
+    /* padding: 32px 38px 32px 32px; */
+    align-items: center;
+    gap: 37px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: rgba(251, 209, 187, 0.32);
+    /* height: 238px; */
+    height: 100%;
+    width: 94%;
+    margin-bottom: 6.5625rem;
+}
+
+.des_proj_text {
+    margin-bottom: 1rem;
+}
+
+.list_techniques {
+    width: 107%;
+    /* width: 541px; */
+}
+
+.project_tools_container {
+    width: 71%;
+}
+
+/* .list_techniques > li {
+    display: flex;
+    margin-bottom: 0.5rem;
+} */
+
+/* .list_techniques > li > .p_bold{
+    width: 115px;    
+} */
+
+/* .special_p {
+    width: 434px;
+} */
+
+.list_small_cont {
+    display: flex;
+    /* flex-wrap: wrap; 
+    gap: 0.5rem; 
+    align-items: flex-start; */
+    width: 100%;
+}
+
+.title_ul {
+    width: 20%;
+    /* flex-shrink: 0; */
+    margin-bottom: 1rem;
+}
+
+.description_list_test {
+    width: 73%;
+}
+.project_icons {
+    width: 30%;
+    background-color: transparent!important;
+    border: none!important;
+    padding: 0!important;
+    align-self: center!important;
+}

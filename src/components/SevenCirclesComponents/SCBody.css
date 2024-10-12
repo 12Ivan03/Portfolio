@@ -1,0 +1,100 @@
+
+.sec_btn_SCBody {
+    width: 308px!important;
+}
+
+.extra_text_gap_SC {
+    margin-top: 2.5rem;
+}
+
+.sec_two_capture_width {
+    width: inherit!important;
+}
+
+.sec_two_image_SC {
+    width: 100%;
+    height: auto;
+    /* width: 861px;
+    height: 769px; */
+    border-radius: 20px;
+}
+
+.mesurCS {
+    width: 308px;
+}
+
+/* 2 layout */
+
+.section_text_width_SC {
+    width: 578px;
+}
+
+.text_width_SC {
+    width: 730px;
+}
+
+.image_ideation_arch_SC {
+    width: 100%;
+    height: auto;
+    /* width: 847px; */
+    /* height: 495px; */
+}
+
+.pic_ideation_arch_SC {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: #FBD1BB;
+}
+
+.image_width_SC {
+    width: 100%;
+    height: auto;
+    /* width: 880px; */
+}
+
+.layout_img_SC {
+    width: 100%;
+    height: auto;
+    flex: 1 0 0;
+    align-self: stretch;
+    /* width: 848px;    */
+}
+
+/* 3 Desinging and Building */
+
+.design_aesthetics_container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.aestethiceCS {
+    width: 31%;
+}
+
+.design_aesthetics_img {
+    display: flex;
+    width: 62%;
+    /* height: 504px; */
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #2A2A36;
+}
+
+.design_aesthetics_img > img {
+    width: 100%;
+    /* width: 544px;
+    height: 492px; */
+    flex-shrink: 0;
+    border-radius: 20px;
+}
