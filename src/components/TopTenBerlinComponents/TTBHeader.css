@@ -4,6 +4,7 @@
 }
 
 .project_icons_TTB {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -15,4 +16,36 @@
 
 .list_small_cont_TTB {
     margin-top: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    /* .project_tools_container, 
+    .project_icons {
+        width: 100%;
+    } */
+
+    .project_icons_TTB {
+        margin-top: 1.5rem;
+    }
+
+    .project_icons_TTB {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .project_icons_TTB {
+        width: 80%!important;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* .project_icons_TTB > div {
+        
+        margin-bottom: 1.5rem;
+        max-width: none; 
+        text-align: center;
+    } */
 }

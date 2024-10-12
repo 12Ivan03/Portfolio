@@ -1,8 +1,9 @@
 .back_to_top_btn {
     position: fixed;
     top: 80%;
-    left: 88%;
-    z-index: 110%;
+    right: 12%;
+    z-index: 110;
+    transition: 1.5s ease-in-out
 }
 
 .top_btn_rotate {
@@ -16,4 +17,48 @@
 .back_to_top_btn:hover .top_arrow,
 .back_to_top_btn:hover .bottom_arrow {
     background-color: #041F28;
+}
+
+@media (max-width: 1230px) {
+    .back_to_top_btn {
+        right: 9%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .back_to_top_btn {
+        right: 7.6%;
+    }
+
+    .top_btn_rotate {
+        opacity: 0.5;
+    }
+
+    .top_btn_rotate:hover {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 720px) {
+    .back_to_top_btn {
+        right: 10%;
+    }
+}
+
+@media (max-width: 620px) {
+    .back_to_top_btn {
+        right: 11%;
+    }
+}
+
+@media (max-width: 520px) {
+    .back_to_top_btn {
+        right: 13%;
+    }
+}
+
+@media (max-width: 430px) {
+    .back_to_top_btn {
+        right: 17%;
+    }
 }

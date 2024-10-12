@@ -51,19 +51,19 @@ function SCHeader() {
                         <div className="list_techniques">
                             <div className="list_small_cont">
                                 <p className="p_bold title_ul">Project type:</p>
-                                <p className="description_list_test">Website redesign </p>       
+                                <p className="description_list_test CS_media">Website redesign </p>       
                             </div>
                             <div className="list_small_cont">
                                 <p className="p_bold title_ul">My role:</p>
-                                <p className="description_list_test">UX/UI Design, UX writing</p>                            
+                                <p className="description_list_test CS_media">UX/UI Design, UX writing</p>                            
                             </div>                           
                             <div className="list_small_cont">
                                 <p className="p_bold title_ul">Audience:</p>
-                                <p className="description_list_test">Art-event Enthusiasts, Government Officials, Event Organizers</p>
+                                <p className="description_list_test CS_media">Art-event Enthusiasts, Government Officials, Event Organizers</p>
                             </div>                           
                             <div className="list_small_cont">
                                 <p className="p_bold title_ul">Methods:</p>
-                                <p className="description_list_test" >
+                                <p className="description_list_test CS_media" >
                                     Competitive Analysis, Surveys, Affinity Mapping, Content Strategy, 
                                     Content Optimization, Information Architecture Redesign, Wireframing, Prototyping, 
                                     UI, Testing
@@ -71,7 +71,7 @@ function SCHeader() {
                             </div>
                             <div className="list_small_cont">
                                 <p className="p_bold title_ul">Team:</p>
-                                <p className="description_list_test" >Myself, a UX Designer, a Developer</p>                            
+                                <p className="description_list_test CS_media" >Myself, a UX Designer, a Developer</p>                            
                             </div>
                         </div>
                     </div>

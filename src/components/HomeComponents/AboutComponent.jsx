@@ -1,5 +1,5 @@
 import "./AboutComponent.css";
-import profilePic from "/public/profile-pic-contact_2.png";
+import profilePic from "/public/04 Alecandra R.-cp-Violeta Lenz.png";
 import Figma from "/public/figma_3.png";
 import Illustrator from "/public/adobe_illustrator_3.ong.png";
 import Miro from "/public/miro 1.png";

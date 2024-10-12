@@ -1,7 +1,12 @@
 import TTBHeader from "../components/TopTenBerlinComponents/TTBHeaderComp";
 import TTBBody from "../components/TopTenBerlinComponents/TTBBodyComp";
+import { useEffect } from "react";
 
 function TopTenBerlin() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return(
         <>

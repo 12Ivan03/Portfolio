@@ -3,7 +3,7 @@ import GifPhoneMochUp from "/public/Beige Black Aesthetic Phone Mockup Fashion S
 function UserTesting() {
 
     return (
-        <section id="userInterface">
+        <section id="user_interface">
             <div className="section_gap user_testing_container">
                 <div className="user_text_container">
                     <h2 className="user_title_testing">5. User Interface</h2>
@@ -33,6 +33,11 @@ function UserTesting() {
                     <img src={GifPhoneMochUp} alt="GIF not avaialbe" />
                 </div>
             </div>
+
+            <div className="project_footer_buttons">
+                    <button className="primary_button">Live website</button>
+                    <button className="secondary_btn sec_project_btn_adjust">Detailed case study</button>
+                </div>
         </section>
     )
 }

@@ -1,5 +1,5 @@
 .mesur_TTB {
-    width: 308px;
+    width: 308px!important;
 }
 
 .flex_sec_clm_TTB {
@@ -76,7 +76,7 @@
     margin-left: 1.5rem;
 }
 
-.kersting_img_container {
+.kerstin_img_container {
     width: 31%;
 }
 
@@ -99,6 +99,11 @@
     width: 72% !important;
 }
 
+.browsing_food_img {
+    width: auto;
+    height: auto;
+}
+
 .findings_text_TTB_two_two {
     width:50%
 }
@@ -106,6 +111,10 @@
 .ol_dimentions_TTB_two {
     width: 91%;
     margin-left: 1.5rem;
+}
+
+.TTB_img_strch {
+    align-self: auto!important;
 }
 
 /* 4 Testing */
@@ -153,4 +162,106 @@
 .ul_TTB_user_text {
     width: 96%;
     margin-left: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .testing_text_TTB {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic_arch_TTB  > h6 {
+        margin-left: 0.5rem;
+    }
+
+    .testing_text_TTB_two {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .findings_text_TTB {
+        width: 80%;
+    }
+
+    .pic_arch_TTB  {
+        align-self: center;
+        width: 50%;
+    }
+
+    .kerstin_img_container {
+        align-self: center;
+        margin-top: 2rem;
+        width: 60%;
+    }
+
+    .findings_text_TTB_two {
+        width: 90%;
+    }
+
+    .browsing_food_img {
+        align-self: center;
+        width: 70%;
+        margin-top: 2rem;
+    }
+
+    .sec_two_capture_width_TTB{
+        width: 95%!important;
+    }
+
+    .box_dev_expo {
+        display: flex;
+        flex-direction: column!important;
+        align-items: flex-start!important;
+    }
+
+    .findings_text_TTB_two_two {
+        width: 90%;
+    }
+
+    .TTB_img_strch {
+        align-self: center!important;
+        margin-top: 2rem;
+    }
+
+    .user_testing_container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .user_text_container {
+        width: 90%;
+    }
+
+    .user_img_container_TTB {
+        align-self: center;
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .ideation_arch_img_second {
+        width: auto!important;
+    }
+}
+
+@media (max-width: 390px) {
+    .opening_btn {
+        display: flex;
+        flex-direction: column!important;
+        align-items: center!important;
+    }
+
+    .project_tools_container {
+        width: 85%!important;
+    }
+
+    .description_list_test {
+        margin-left: 2rem;
+    }
+
+    .tools_icons {
+        height: auto;
+    }
 }

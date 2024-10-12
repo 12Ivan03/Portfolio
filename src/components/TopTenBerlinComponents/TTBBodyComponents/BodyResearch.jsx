@@ -96,7 +96,7 @@ function Research() {
                     </ul>
                 </div>
             </div>
-
+{/* PERSONAS */}
             <div className="testing_text_TTB_two in_section_gap">
                 <div className="findings_text_TTB">
                     <h3 className="text_gap">Personas</h3>

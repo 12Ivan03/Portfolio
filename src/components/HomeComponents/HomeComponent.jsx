@@ -1,4 +1,4 @@
-import profilePic from "/public/Rectangle 7.png";
+import profilePic from "/public/alexImg.png";
 import "./HomeComponent.css"
 
 function HomeComponenet({ sendEmail }) {

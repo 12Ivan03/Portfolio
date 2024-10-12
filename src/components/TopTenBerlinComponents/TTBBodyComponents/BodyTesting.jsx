@@ -5,7 +5,7 @@ function Testing() {
 
     return (
 
-        <section id="research">
+        <section id="testing">
             <h2 className="section_gap">4. Testing</h2>
 
             <div className="section_text_width_TTB section_gap">
@@ -29,9 +29,7 @@ function Testing() {
                     after viewing each item.
                 </p>
             </div>
-
-            {/* <span className="p_bold"></span> */}
-
+{/* <span className="p_bold"></span> */}
             <div className="testing_text_TTB_two section_gap">
                 <div className="box_dev_expo box_dev_expo_TTB">
                     <div className="findings_text_TTB_two_three">
@@ -49,7 +47,7 @@ function Testing() {
                             clearer visual differentiation between the two, improving recognition and usability.
                         </p>
                     </div>
-                    <div className="pic_ideation_arch ideation_arch_img_second">
+                    <div className="pic_ideation_arch ideation_arch_img_second TTB_img_strch">
                         <div>
                             <img className="img_box_dev_expo eight_gap" src={TestVert} alt="not available" />
                         </div>

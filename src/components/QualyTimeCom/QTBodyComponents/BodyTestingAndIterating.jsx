@@ -6,7 +6,7 @@ function TestingAndIterating()  {
     return (
         <section id="Design" className="testing_container section_gap">
             <h2 className="section_gap">3. Testing & Iterating</h2>
-            <div className="testing_text in_section_gap">
+            <div className="testing_text in_section_gap gap_media">
                 <div>
                     <h3 className="text_gap">Usability Testing</h3>
                     <p className="text_gap">

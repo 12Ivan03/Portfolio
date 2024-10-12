@@ -27,7 +27,7 @@ function QTHeader() {
                             <p>This carefully structured content supports hobbyists of all levels in learning and advancing efficiently, helping them make the most of their time.</p>
                     </div>
                 </div>
-
+{/* Big image Scope, Role, and Tools */}
                 <div className="header_image_project">
                     <img src={QualyTimeProjectPic} alt="Not available" />
                 </div>
@@ -55,7 +55,7 @@ function QTHeader() {
                         </div>
 
                     </div>
-                    <div className="tools_icons project_icons">
+                    <div className="tools_icons project_icons project_icons_CS">
                         <div>
                             <img src={Figma} alt="Not available" />
                             <h6>Figma</h6>

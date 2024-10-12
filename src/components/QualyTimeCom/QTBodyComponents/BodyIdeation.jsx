@@ -21,6 +21,7 @@ function Ideation() {
                         <h6>top level site map</h6>
                     </div>
                 </div>
+{/* Three sections with text and images  */}
                 <div>
                     <div className="box_dev_expo fourth_two_half_gap">
                         <div className="dox_text_expo">

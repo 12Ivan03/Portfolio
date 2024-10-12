@@ -6,7 +6,7 @@ import TraficTTB from "/public/traffic_spikes.png"
 function DefineProblems() {
 
     return (
-        <section id="research">
+        <section id="defining">
             <h2 className="section_gap">1. Defining Problems & Opportunities</h2>
             <div className="section_text_width_TTB in_section_gap">
                 <h3 className="text_gap">Competitive Analysis</h3>
@@ -102,7 +102,7 @@ function DefineProblems() {
                 </div>
             </div>
 
-            <div>
+            <div className="media_mobile">
                 <div className="opening_description_CSH in_section_gap">
                     <h3 className="text_gap">The challenge</h3>
                     <p className="text_gap"> 
@@ -120,7 +120,7 @@ function DefineProblems() {
                         available, presenting a challenge in fitting this ambitious project within  vigorous time constraints.
                     </p>
                 </div>
-
+{/* Website Audit & Findings Image first  */}
                 <div className="fourth_two_half_gap">
                     <div className="sec_two_capture sec_two_capture_width sec_two_capture_TTB section_gap">
                         <img className="sec_two_image_SC" src={TTBSchreenshot} alt="Not available" />

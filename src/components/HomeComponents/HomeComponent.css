@@ -92,6 +92,22 @@
     }
 }
 
+@media (max-width: 600px) {
+
+    .img_container img,
+    .img_container {
+        display: none;
+    }
+
+    .home_section {
+        margin-top: 13rem;
+    }
+
+    .project_container {
+        margin-top: 3rem!important;
+    }
+}
+
 @media (max-width: 390px) {
 
     .home_section {

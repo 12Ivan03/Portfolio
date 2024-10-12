@@ -50,3 +50,9 @@
 .second_row {
     margin-left: -2.5rem;
 }
+
+@media (max-width: 838px ) {
+    .CS_media {
+        margin-left: 1rem;
+    }
+}

@@ -7,8 +7,8 @@ import TwoFeatures from "/public/two_features.png"
 function InformationArchitecture() {
 
     return (
-        <section id="research">
-            <h2 className="section_gap">2. Research</h2>
+        <section id="information">
+            <h2 className="section_gap">3. Information Architecture & Layout</h2>
             <div className="section_text_width_TTB in_section_gap">
                 <h3 className="text_gap">Content Audit</h3>
                 <p className="text_gap">
@@ -46,7 +46,7 @@ function InformationArchitecture() {
                     losing any essential content.
                 </p>
             </div> 
-
+{/* gib image Content Three */}
             <div className="pic_ideation_arch_SC fourth_two_half_gap">
                 <img className="image_ideation_arch_SC" src={ContentTree} alt="Not available" />
                 <h6>Snippet from the interviews&apos; Affinity Map</h6>
@@ -67,7 +67,7 @@ function InformationArchitecture() {
                     search engines to index it effectively.
                 </p>
             </div>
-
+{/* Modile First Design */}
             <div className="testing_text_TTB_two in_section_gap">
                 <div className="findings_text_TTB_two">
                     <h3 className="text_gap">Mobile-First Design</h3>
@@ -101,7 +101,7 @@ function InformationArchitecture() {
                     </ul>
                 </div>
 
-                <div className="kerstin_img_container">
+                <div className="browsing_food_img">
                     <img className="kerstin_arch_img_TTB" src={BrowsingFood} alt="Not available" />
                     
                 </div>
@@ -137,15 +137,16 @@ function InformationArchitecture() {
                 </div>
             </div>
 
-            <div className="in_section_gap">
-                <div className="sec_two_capture sec_two_capture_width_TTB">
-                    <img className="sec_two_image_SC TTB_img_width" src={CategoryMVersion} alt="Not available" />
-                    <h6>Horizontal container card-based layout</h6>
+            <div>
+                <div className="in_section_gap">
+                    <div className="sec_two_capture sec_two_capture_width_TTB">
+                        <img className="sec_two_image_SC TTB_img_width" src={CategoryMVersion} alt="Not available" />
+                        <h6>Horizontal container card-based layout</h6>
+                    </div>
                 </div>
             </div>
-
+{/* Filter Feature & Search  */}
             <div className="testing_text_TTB_two section_gap">
-
                 <div className="box_dev_expo fourth_two_half_gap">
                     <div className="findings_text_TTB_two_two">
                         <h3 className="text_gap">Filter Feature & Search</h3>
@@ -175,7 +176,7 @@ function InformationArchitecture() {
                             </li>
                         </ul>
                     </div>
-                    <div className="pic_ideation_arch ideation_arch_img_second">
+                    <div className="pic_ideation_arch ideation_arch_img_second TTB_img_strch">
                         <img className="img_box_dev_expo eight_gap" src={TwoFeatures} alt="not available" />
                         <h6>Home, Browsing, low-fidelity wireframes</h6>
                     </div>
