@@ -32,13 +32,18 @@ function TTBBody() {
                         <h3>The applied UX Process </h3>
                         <div className="btn_procces_nav">
                             <div className="flex_procces_nav">
-                                <button className="secondary_btn mesur mesur_TTB"><a href="#defining">1. Defining Problems & Opportunities</a></button>
-                                <button className="secondary_btn mesur mesur_TTB"><a href="#research">2. Research</a></button>
-                                <button className="secondary_btn mesur mesur_TTB"><a href="#information">3. Information Architecture & Layout</a></button>
+                                <div className="btn_width">
+                                    <button className="secondary_btn mesur mesur_TTB"><a href="#defining">1. Defining Problems & Opportunities</a></button>
+                                    <button className="secondary_btn mesur mesur_TTB"><a href="#research">2. Research</a></button>
+                                    <button className="secondary_btn mesur mesur_TTB"><a href="#information">3. Information Architecture & Layout</a></button>
+                            
+                                </div>
                             </div>
                             <div className="flex_procces_nav flex_sec_clm_TTB">
-                                <button className="secondary_btn mesur mesur_TTB"><a href="#testing">4. Testing</a></button>
-                                <button className="secondary_btn mesur mesur_TTB"><a href="#user_interface">5. User Interface</a></button>
+                                <div className="btn_width">
+                                    <button className="secondary_btn mesur mesur_TTB"><a href="#testing">4. Testing</a></button>
+                                    <button className="secondary_btn mesur mesur_TTB"><a href="#user_interface">5. User Interface</a></button>
+                                </div>
                             </div>
                         </div>
                     </div>

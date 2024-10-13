@@ -4,8 +4,17 @@ import FigmaLogo from "/public/figma_3.png";
 import GoogleLogo from "/public/unnamed.png";
 import PosthogLogo from "/public/posthog-logomark.png";
 import GoogleSheetsLogo from "/public/icons8-google-sheets.png";
+import TTBDetailedStudy from "/public/TopTenBerlinDetailedStudy.jpg"
 
 function TTBHeader() {
+
+    const handleClick = () => {
+        window.open('https://www.top10berlin.de/en', '_blank');
+    }
+
+    const handleDetailedStudy = () => {
+        window.open(TTBDetailedStudy, '_blank');
+    }
 
     return (
         <header className="project_position">
@@ -17,9 +26,9 @@ function TTBHeader() {
                                 <h2>redesign of a Berlin location guide</h2>
                             </div>
                             <div className="opening_btn">
-                                <button className="primary_button">Live website</button>
+                                <button className="primary_button" onClick={handleClick}>Live website</button>
                                 <div className="secondary_button_width">
-                                    <button className="secondary_btn sec_project_btn_adjust">Detailed case study</button>
+                                    <button className="secondary_btn sec_project_btn_adjust" onClick={handleDetailedStudy}>Detailed case study</button>
                                 </div>
                             </div>
                     </div>

@@ -31,12 +31,16 @@ function SCBody() {
                         <h3>The applied UX Process </h3>
                         <div className="btn_procces_nav">
                             <div className="flex_procces_nav">
-                                <button className="secondary_btn mesur mesurCS"><a href="#research">1. Research & Discovery</a></button>
-                                <button className="secondary_btn mesur mesurCS"><a href="#ideation">2. Information Architecture & Layout</a></button>
+                                <div className="btn_width">
+                                    <button className="secondary_btn mesur mesurCS"><a href="#research">1. Research & Discovery</a></button>
+                                    <button className="secondary_btn mesur mesurCS"><a href="#ideation">2. Information Architecture & Layout</a></button>
+                                </div>
                             </div>
                             <div className="flex_procces_nav">
-                                <button className="secondary_btn mesur mesurCS"><a href="#design">3. Designing & Building</a></button>
-                                <button className="secondary_btn mesur mesurCS"><a href="#prototyping">4. Testing</a></button>
+                                <div className="btn_width">
+                                    <button className="secondary_btn mesur mesurCS"><a href="#design">3. Designing & Building</a></button>
+                                    <button className="secondary_btn mesur mesurCS"><a href="#prototyping">4. Testing</a></button>
+                                </div>
                             </div>
                         </div>
                     </div>

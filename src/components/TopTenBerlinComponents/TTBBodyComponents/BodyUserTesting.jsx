@@ -1,6 +1,15 @@
 import GifPhoneMochUp from "/public/Beige Black Aesthetic Phone Mockup Fashion Shop Promotion Mobile Video.gif";
+import TTBDetailedStudy from "/public/TopTenBerlinDetailedStudy.jpg"
 
 function UserTesting() {
+
+    const handleClick = () => {
+        window.open('https://www.top10berlin.de/en', '_blank');
+    }
+
+    const handleDetailedStudy = () => {
+        window.open(TTBDetailedStudy, '_blank');
+    }
 
     return (
         <section id="user_interface">
@@ -35,9 +44,9 @@ function UserTesting() {
             </div>
 
             <div className="project_footer_buttons">
-                <button className="primary_button">Live website</button>
+                <button className="primary_button" onClick={handleClick}>Live website</button>
                 <div className="secondary_button_width">
-                    <button className="secondary_btn sec_project_btn_adjust">Detailed case study</button>
+                    <button className="secondary_btn sec_project_btn_adjust" onClick={handleDetailedStudy}>Detailed case study</button>
                 </div>
             </div>
         </section>

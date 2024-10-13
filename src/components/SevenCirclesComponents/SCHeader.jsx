@@ -7,8 +7,17 @@ import Google from "/public/Google_Forms_Logo 1.png";
 import JSImg from "/public/js.png";
 import Css from "/public/css_3.png";
 import html from "/public/html_5_3.ong.png"
+import SevenCirclesDetailedStudy from "/public/SevenCirclesDetailedStudy.jpg"
 
 function SCHeader() {
+
+    const handleClick = () => {
+        window.open('https://www.7circles.at/', '_blank');
+    }
+
+    const handleDetailedStudy = () => {
+        window.open(SevenCirclesDetailedStudy, '_blank');
+    };
 
     return (
         <header className="project_position">
@@ -20,9 +29,9 @@ function SCHeader() {
                             <h2>website redesign of an art non-profit</h2>
                         </div>
                         <div className="opening_btn">
-                            <button className="primary_button">Live Website</button>
+                            <button className="primary_button" onClick={handleClick}>Live Website</button>
                             <div className="secondary_button_width">
-                                <button className="secondary_btn sec_project_btn_adjust">Detailed case study</button>
+                                <button className="secondary_btn sec_project_btn_adjust" onClick={handleDetailedStudy}>Detailed case study</button>
                             </div>
                         </div>
                     </div>

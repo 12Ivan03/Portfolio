@@ -1,5 +1,15 @@
 
+import SevenCirclesDetailedStudy from "/public/SevenCirclesDetailedStudy.jpg"
+
 function TestingSC() {
+
+    const handleClick = () => {
+        window.open('https://www.7circles.at/', '_blank');
+    };
+
+    const handleDetailedStudy = () => {
+        window.open(SevenCirclesDetailedStudy, '_blank');
+    };
 
     return (
          <section id="prototyping">
@@ -22,9 +32,9 @@ function TestingSC() {
             </div>
 
             <div className="project_footer_buttons">
-                <button className="primary_button">Visit live site</button>
+                <button className="primary_button" onClick={handleClick}>Visit live site</button>
                 <div className="secondary_button_width">
-                    <button className="secondary_btn sec_project_btn_adjust">Detailed case study</button>
+                    <button className="secondary_btn sec_project_btn_adjust" onClick={handleDetailedStudy}>Detailed case study</button>
                 </div>
             </div>
          </section>

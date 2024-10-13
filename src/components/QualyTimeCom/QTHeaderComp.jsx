@@ -3,8 +3,17 @@ import QualyTimeProjectPic from "/public/mockup_qualy_project.png";
 import Usertesting from "/public/userTesting.png";
 import Miro from "/public/miro 1.png"
 import Figma from "/public/figma_3.png"
+import QualyTimeDetailedStudy from "/public/QualiTimeDetailedStudy.jpg";
 
 function QTHeader() {
+
+    const handleClick = () => {
+        window.open('https://www.figma.com/proto/9crukMBTKIUdY2hxl49FJL/6.5-QualyTime-Presentation?page-id=82%3A702&node-id=2101-1973&node-type=frame&viewport=2974%2C2531%2C0.18&t=MBQpeSTjZmFqsfQe-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2101%3A1973', '_bloank')
+    }
+
+    const handleDetailedStudy = () => {
+        window.open(QualyTimeDetailedStudy, '_blank');
+    }
 
     return( 
         <header className="project_position">
@@ -16,9 +25,9 @@ function QTHeader() {
                                 <h2>An educational app for hobbyists</h2>
                             </div>
                             <div className="opening_btn">
-                                <button className="primary_button">Interactive prototype</button>
+                                <button className="primary_button" onClick={handleClick}>Interactive prototype</button>
                                 <div className="secondary_button_width">
-                                    <button className="secondary_btn sec_project_btn_adjust">Detailed case study</button>
+                                    <button className="secondary_btn sec_project_btn_adjust" onClick={handleDetailedStudy}>Detailed case study</button>
                                 </div>
                             </div>
                     </div>

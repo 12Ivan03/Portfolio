@@ -36,12 +36,16 @@ function QTBody() {
                         <h3>The applied UX Process </h3>
                         <div className="btn_procces_nav">
                             <div className="flex_procces_nav">
-                                <button className="secondary_btn mesur"><a href="#research">1. Research & Discovery</a></button>
-                                <button className="secondary_btn mesur"><a href="#ideation">2. Ideation</a></button>
+                                <div className="btn_width">
+                                    <button className="secondary_btn mesur"><a href="#research">1. Research & Discovery</a></button>
+                                    <button className="secondary_btn mesur"><a href="#ideation">2. Ideation</a></button>
+                                </div>
                             </div>
                             <div className="flex_procces_nav">
-                                <button className="secondary_btn mesur"><a href="#Design">3. Designing & Testing</a></button>
-                                <button className="secondary_btn mesur"><a href="#prototyping">4. Prototyping</a></button>
+                                <div className="btn_width">
+                                    <button className="secondary_btn mesur"><a href="#Design">3. Designing & Testing</a></button>
+                                    <button className="secondary_btn mesur"><a href="#prototyping">4. Prototyping</a></button>
+                                </div>
                             </div>
                         </div>
                     </div>

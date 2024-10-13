@@ -164,6 +164,13 @@
     margin-left: 1.5rem;
 }
 
+.btn_width {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 @media (max-width: 600px) {
     .testing_text_TTB {
         display: flex;
