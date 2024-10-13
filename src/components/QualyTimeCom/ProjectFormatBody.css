@@ -171,7 +171,7 @@
 }
 
 .ideation_arch_img_second {
-    width: 45%!important;
+    width: 85%!important;
 }
 
 /* Box - with the first images of the projects */
@@ -275,8 +275,9 @@
     }
     
     .sec_two_capture {
-        padding: 3%;
+        padding: 1% 1.5%;
         width: 90%;
+        gap: 0.5rem;
     }
 
     .dox_text_expo {
@@ -299,11 +300,20 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
+    .testing_arch {
+        padding: 2%;
+    }
+
+    .text_exponation_testing {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
     .project_footer_buttons {
         display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 2rem;
     }
 }

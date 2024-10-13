@@ -1,7 +1,49 @@
+
+.button_container_BtoT {
+      /* width: 60px;
+    height: 60px;
+    margin: 0 2rem; */
+    /* position: absolute; */
+    /* top: 3.5%;
+    left: 85%; */
+    /* width: 10.5%;
+    height: 10.5%; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 2px solid rgba(113, 88, 74, 0.16);
+    background: rgba(255, 247, 241, 0.64);
+    transition: all 0.8s ease-in-out;
+}
+
+.top_arrow_BtoT {
+    position: relative;
+    top: 1.1rem;
+    left: 1.6rem;
+    width: 4px;
+    height: 16px;
+    background-color: #7B685E;
+    border-radius: 1rem;
+    transform: rotate(90deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.bottom_arrow_BtoT {
+    position: relative;
+    top: 0.52rem;
+    left: 2.03rem;
+    width: 4px;
+    height: 16px;
+    background-color: #7B685E;
+    border-radius: 1rem;
+    /* transform: rotate(-45deg); */
+    transition: all 0.5s ease-in-out;
+}
+
 .back_to_top_btn {
     position: fixed;
-    top: 80%;
-    right: 12%;
+    top: 85%;
+    right: 5%;
     z-index: 110;
     transition: 1.5s ease-in-out
 }
@@ -21,13 +63,13 @@
 
 @media (max-width: 1230px) {
     .back_to_top_btn {
-        right: 9%;
+        right: 5%;
     }
 }
 
 @media (max-width: 1020px) {
     .back_to_top_btn {
-        right: 7.6%;
+        right: 5%;
     }
 
     .top_btn_rotate {
@@ -39,26 +81,40 @@
     }
 }
 
+@media (max-width: 768px) {
+    .back_to_top_btn {
+        top: 85%;
+        right: 5%;
+    }
+}
+
 @media (max-width: 720px) {
     .back_to_top_btn {
-        right: 10%;
+        top: 85%;
+        right: 5%;
     }
 }
 
 @media (max-width: 620px) {
     .back_to_top_btn {
-        right: 11%;
+        right: 5%;
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 550px) {
     .back_to_top_btn {
-        right: 13%;
+        right: 5%;
     }
 }
 
 @media (max-width: 430px) {
     .back_to_top_btn {
-        right: 17%;
+        right: 7%;
+    }
+}
+
+@media (max-width: 430px) {
+    .back_to_top_btn {
+        right: 7%;
     }
 }

@@ -186,13 +186,13 @@
 
     .pic_arch_TTB  {
         align-self: center;
-        width: 50%;
+        width: 80%;
     }
 
     .kerstin_img_container {
         align-self: center;
         margin-top: 2rem;
-        width: 60%;
+        width: 80%;
     }
 
     .findings_text_TTB_two {
@@ -201,7 +201,7 @@
 
     .browsing_food_img {
         align-self: center;
-        width: 70%;
+        width: 80%;
         margin-top: 2rem;
     }
 
@@ -236,25 +236,23 @@
 
     .user_img_container_TTB {
         align-self: center;
-        width: 60%;
+        width: 80%;
     }
 }
 
-@media (max-width: 500px) {
-    .ideation_arch_img_second {
-        width: auto!important;
-    }
-}
-
-@media (max-width: 390px) {
+@media (max-width: 550px) {
     .opening_btn {
         display: flex;
         flex-direction: column!important;
-        align-items: center!important;
+        width: 70%;
+    }
+
+    .ideation_arch_img_second {
+        width: auto!important;
     }
 
     .project_tools_container {
-        width: 85%!important;
+        width: 93%!important;
     }
 
     .description_list_test {
@@ -263,5 +261,42 @@
 
     .tools_icons {
         height: auto;
+    }
+
+    .opening_description {
+        width: 95%!important;
+    }
+
+    .project_text_width {
+        width: 95%!important;
+    }
+
+    .flex_procces_nav {
+        width: 95%;
+    }
+
+    .section_text_width {
+        width: 95%!important;
+    }
+
+    .project_footer_buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .section_text_width_TTB {
+        width: 95%;
+    }
+
+    .findings_text_TTB {
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .flex_procces_nav {
+        width: 110%;
     }
 }

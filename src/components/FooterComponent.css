@@ -45,3 +45,15 @@ footer {
         width: 85%;
     }
 }
+
+
+@media (max-width: 550px) {
+
+    footer {
+        height: 130px;
+    }
+    
+    .footer-container {
+        width: 95%;
+    }
+}

@@ -124,3 +124,21 @@
         width: 80%;
     }
 }
+
+@media (max-width: 550px) {
+    .section_text_width_SC {
+        width: 95%;
+    }
+
+    .pic_ideation_arch_SC {
+        padding: 2%;
+    }
+
+    .text_width_SC {
+        width: 95%;
+    }
+
+    .aesthetics_CS {
+        width: 95%;
+    }
+}

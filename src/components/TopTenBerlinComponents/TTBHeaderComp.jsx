@@ -18,7 +18,9 @@ function TTBHeader() {
                             </div>
                             <div className="opening_btn">
                                 <button className="primary_button">Live website</button>
-                                <button className="secondary_btn sec_project_btn_adjust">Detailed case study</button>
+                                <div className="secondary_button_width">
+                                    <button className="secondary_btn sec_project_btn_adjust">Detailed case study</button>
+                                </div>
                             </div>
                     </div>
 

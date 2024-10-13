@@ -50,20 +50,20 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .center_container_contact {
         margin-top: 10rem;
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 550px) {
 
     .center_container_contact {
-        margin-top: 3rem;
+        margin: 3rem 0;
     }
 
     .contact_container {
-        width: 90%;
+        width: 95%;
     }
 
     .contact_text {

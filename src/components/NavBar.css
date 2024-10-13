@@ -12,8 +12,8 @@
     gap: 32px;
     width: 40%;
     /* width: 576px; */
-    height: 7.8%;;
-    /* height: 52px; */
+    /* height: 7.8%;; */
+    height: 48px;
     border: 2px solid rgba(113, 88, 74, 0.16);
     border-radius: 50px ;
     background: rgba(255, 247, 241, 0.64);
@@ -59,20 +59,32 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 
     .nav_bar {
-        width: 63%;
+        width: 73%;
         /* height: 7.8%; */
         gap: unset;
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 550px) {
 
     .nav_bar {
-        width: 86%;
+        width: 95%;
         /* height: 7.8%; */
         gap: unset;
+    }
+}
+
+@media (max-width: 412px) {
+    .nav_bar {
+        height: 5.4%;
+    }
+}
+
+@media (max-width: 390px) {
+    .nav_bar {
+        height: 5.4%;
     }
 }

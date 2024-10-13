@@ -73,7 +73,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .home_text_container {
         width: 85%;
     }
@@ -101,6 +101,7 @@
 
     .home_section {
         margin-top: 13rem;
+        display: block;
     }
 
     .project_container {
@@ -108,11 +109,13 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 550px) {
 
     .home_section {
         margin-top: 6rem;
-        width: 102%;
+        /* width: 102%;
+        justify-content: flex-start; */
+        padding: 1rem;
     }
 
     .home_section_position {

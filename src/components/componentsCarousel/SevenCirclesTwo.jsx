@@ -17,7 +17,7 @@ function SevenCirclesTwo() {
             </div>
             <div className="carousel_text">
                 <h3 className='carousel_text_h3'>SevenCircles</h3>
-                <h4 className='carousel_text_h4'>Best stichting form music in Ostria </h4>
+                <h4 className='carousel_text_h4'>website redesign of an art non-profit</h4>
             </div>
             <img className='carousel_image' src={seven} alt="Not available" />
 

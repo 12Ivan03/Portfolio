@@ -35,9 +35,11 @@ function UserTesting() {
             </div>
 
             <div className="project_footer_buttons">
-                    <button className="primary_button">Live website</button>
+                <button className="primary_button">Live website</button>
+                <div className="secondary_button_width">
                     <button className="secondary_btn sec_project_btn_adjust">Detailed case study</button>
                 </div>
+            </div>
         </section>
     )
 }

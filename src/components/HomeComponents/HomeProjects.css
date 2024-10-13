@@ -71,22 +71,6 @@
     background: rgba(255, 247, 241, 0.64);
     transition: all 0.8s ease-in-out;
 }
-/* 
-.button_carsl {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    border: 2px solid rgba(113, 88, 74, 0.16);
-    background: rgba(255, 247, 241, 0.64);
-    transition: all 0.8s ease-in-out;
-} */
-
-/* .button_carsl:hover {
-    border: 2px solid rgba(113, 88, 74, 0.32);
-    background: rgba(255, 255, 255, 0.90);
-    cursor: pointer ;
-} */
 
 .link_a_projects_carousel {
     width: 100%;
@@ -120,30 +104,6 @@
     transition: all 0.5s ease-in-out;
 }
 
-/* .top_arrow_next {
-    position: relative;
-    top: 0.25rem;
-    left: 1.3rem;
-    width: 4px;
-    height: 16px;
-    background-color: #7B685E;
-    border-radius: 1rem;
-    transform: rotate(-45deg);
-    transition: all 0.5s ease-in-out;
-}
-
-.bottom_arrow_next {
-    position: relative;
-    top: -0.2rem;
-    left: 1.3rem;
-    width: 4px;
-    height: 16px;
-    background-color: #7B685E;
-    border-radius: 1rem;
-    transform: rotate(45deg);
-    transition: all 0.5s ease-in-out;
-} */
-
 .button_carsl:hover .top_arrow,
 .button_carsl:hover .bottom_arrow {
     background-color: #041F28;
@@ -165,7 +125,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 
     .project_container {
         margin-top: 14.8rem;
@@ -202,45 +162,60 @@
     }
 }
 
+@media (max-width: 650px) {
+    .button_container {
+        left: 86%;
+    }
+}
+
 @media (max-width: 570px) {
     .button_container {
         left: 85%;
     }
 }
 
-@media (max-width: 450px) {
-    .button_container {
-        left: 82%;
-    }
-}
-
-@media (max-width: 390px) {
+@media (max-width: 550px) {
 
     .project_container {
         margin-top: 4rem;
     }
 
     .button_container {
-        left: 82%;
+        left: 88%;
     }
 
     .border_container {
         width: 95%;
     }
 
+    .carousel {
+        justify-content: flex-start;
+    }
+
     .carousel_card {
-        margin: 0 auto;
-        /* width: 85%; */
+        width: 94%;
     }
 
     .project_title {
         margin-bottom: 2.5rem;
-        margin-left: 1rem;
+
     }
 
     .carousel_image {
-       width: 105%;
+       width: 103%;
        margin-bottom: -0.5rem;
        margin-left: -0.5rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .button_container {
+        left: 84%;
+    }
+}
+
+@media (max-width: 390px) {
+    .button_container {
+        left: 84%;
     }
 }
