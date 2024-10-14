@@ -26,21 +26,17 @@
     transition: 1.5s ease-in-out;
 }
 
-.home_text_container > h4 {    
+.home_opening_text{
     margin-top: 2rem;
 }
 
 /* get in touch button */
 
 .home_btn_container {
-    margin-top: 21%;  
+    margin-top: 11%;  
     width: 273px;
     height: 56px;
 }
-
-/* .home_text_container > button {    
-    margin-top: 21%;  
-} */
 
 /* profile image */
 

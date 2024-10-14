@@ -15,6 +15,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-family: 'Kanit', sans-serif;
+    color: #1C3E49;
 }
 
 button {
@@ -29,18 +30,21 @@ h1 {
     font-size: 48px;
     font-weight: 500;
     transition: 1.5s ease-in-out;
+    color: #1C3E49;
 }
 
 h2 {
     font-size: 32px;
     font-weight: 500;
     transition: 1.5s ease-in-out;
+    color: #1C3E49;
 }
 
 h3 {
     font-size: 24px;
     font-weight: 500;
     transition: 1.5s ease-in-out;
+    color: #1C3E49;
 }
 
 /* subtitle */

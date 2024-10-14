@@ -7,9 +7,9 @@ import ContactComponent from "../components/HomeComponents/ContactComponent";
 function HomePage(){
 
     const sendEmail = () => {
-        const email = "ivan.pavlov1203@gmail.com";
-        const subject = "Hello";
-        const body = "Hello, I wanted to reach out and offer you a job ;) ... :D ";
+        const email = "radoulovaa@gmail.com";
+        const subject = "";
+        const body = "";
         window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     }
 
