@@ -6,8 +6,13 @@ import Miro from "/public/miro 1.png";
 import Html from "/public/html_5_3.ong.png";
 import Css from "/public/css_3.png";
 import Github from "/public/github_3.png";
+import AlexCV from "/public/resume_english_1024.pdf";
 
 function AboutComponent() {
+
+    const handleCvOpen = () => {
+        window.open(AlexCV, '_blank');
+    }
 
     return(
         <>
@@ -75,7 +80,7 @@ function AboutComponent() {
                             </div>
 
                             <div className="button_resume">
-                                <button className="secondary_btn padding_sec_btn">
+                                <button className="secondary_btn padding_sec_btn" onClick={handleCvOpen}>
                                     Check out my resume
                                 </button>
                             </div>
